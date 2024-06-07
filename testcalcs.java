@@ -5,5 +5,7 @@ class testcalcs{
         Scanner scan = new Scanner(System.in);
         System.out.print("Would you like to calculate[Y or N]");
         String uses = scan.nextLine().toUpperCase();
+
+        scan.close();
     }
 }
